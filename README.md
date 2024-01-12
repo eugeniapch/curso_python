@@ -12,3 +12,16 @@ conda install -c conda-forge python numpy pandas
 
 Su usamos el ambiente de Python (video 8):
 python -m env curso_v2 
+
+## Cargando en GitHub
+git init
+git status
+git add README.md
+git commit -m "first commit"
+git add .
+git config --global user.email "eugeniapch@gmail.com"
+git config --global user.name "eugeniapch"
+git branch -m master main
+git commit -m "actualizacion curso python parte 04"
+git remote add origin git@github.com:eugeniapch/curso_python.git
+git push -u origin main
