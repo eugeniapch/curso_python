@@ -1,0 +1,17 @@
+{
+  // especifica la ruta al ejecutable de python en el ambiente conda activo.
+  //"python.pythonPath": "/home/eugeniapch/anaconda3/envs/curso_v2/bin/python",
+  "python.defaultInterpreterPath": "/home/eugeniapch/anaconda3/envs/curso_v2/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  // especifica el shell integrado de VS Code en WSL.
+
+  //"terminal.integrated.shellIntegration.enabled": true,
+  //"terminal.integrated.shell.linux": "C:\\Windows\\System32\\wsl.exe",
+
+  // especifica el shell integrado de VS Code en WSL.
+  "terminal.integrated.env.linux": {
+    "CONDA_ENV_NAME": "/home/eugeniapch/anaconda3/envs/curso_v2",
+    "PATH": "/home/eugeniapch/anaconda3/envs/curso_v2/bin:/home/eugeniapch/anaconda3/condabin:/usr//sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+  }
+}
