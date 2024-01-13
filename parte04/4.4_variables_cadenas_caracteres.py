@@ -1,5 +1,9 @@
-nombre = 'Edward'
-apellido = "Ortiz"
+"""
+    Vamos a ejemplificar variables que guardan texto
+"""
+
+nombre = 'Maria'
+apellido = "Pereira"
 nombre_completo = nombre + ' ' + apellido
 
 print('Nombre:', nombre)
@@ -14,12 +18,13 @@ print('Tipo de dato de la variable nombre_completo:', type(nombre_completo))
 
 print()
 
-edad = 29
+edad = 55
 
 resultado = nombre_completo + ' tiene ' + str(edad) + ' años.'
 print(resultado)
 
 print()
 
+# Otra forma de hacerlo
 resultado = '{} tiene {} años.'.format(nombre_completo, edad)
 print(resultado)
