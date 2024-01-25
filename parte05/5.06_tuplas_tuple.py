@@ -1,4 +1,5 @@
-# Tipo de dato compuesto - tupla - estático:
+
+# *! Tipo de dato compuesto - tupla - estático o inmutable:
 
 punto = (2, 5)
 print('Tipo de dato:', type(punto))

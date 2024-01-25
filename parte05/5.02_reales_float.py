@@ -1,4 +1,8 @@
-# Números de punto flotante:
+"""
+        Números de punto flotante:  
+        La clase float(), retorna un número de punto flotante construido a partir de un número o una cadena x.
+        El operador % se utiliza para formatear una cadena con un número de punto flotante
+"""
 
 pi = 3.1415
 precio = 29.95
